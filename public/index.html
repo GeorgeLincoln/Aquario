@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aquário Inteligente</title>
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+      .pad{
+        padding: 5px;
+      }
+      .right{
+        text-align: right;
+      }
+      .material-icons.md-48 { font-size: 48px; }
+      .material-icons.orange600 { color: #FB8C00; }
+      .material-icons.green600 { color: #22980a; }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Aquário Inteligente</span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+    				<!-- <a class="mdl-navigation__link" href="#">Dashboard</a> -->
+    				<!-- <a class="mdl-navigation__link" href="#">About</a>
+    				<a class="mdl-navigation__link" href="#">Contact</a> -->
+          </nav>
+
+    			<!-- start search form -->
+    			<!-- <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+    				<label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
+    					<i class="material-icons">search</i>
+    				</label>
+    				<div class="mdl-textfield__expandable-holder">
+    					<input class="mdl-textfield__input" type="text" id="search-expandable" />
+    					<label class="mdl-textfield__label" for="search-expandable">Search text</label>
+    				</div>
+    			</div> -->
+    			<!-- end search form -->
+
+        </div>
+      </header>
+    	<div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Aquário Inteligente</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="#">Dashboard</a>
+          <!-- <a class="mdl-navigation__link" href="#">Services</a>
+          <a class="mdl-navigation__link" href="#">Portfolios</a>
+          <a class="mdl-navigation__link" href="#">Achievements</a>
+          <a class="mdl-navigation__link" href="#">Blog</a> -->
+        </nav>
+      </div>
+      <main class="mdl-layout__content mdl-color--grey-100">
+        <div class="mdl-grid">
+          <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--6-col pad">
+            <p>Temperatura da água</p>
+            <h1 id="temp-dash" style="text-align: center;">0°</h1>
+          </div>
+          <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--6-col pad">
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--10-col">Status das ventoinhas</div>
+              <div class="mdl-cell mdl-cell--2-col">
+                <label id="fan_switch" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+                  <input type="checkbox" id="switch-1" class="mdl-switch__input">
+                  <span class="mdl-switch__label"></span>
+                </label>
+              </div>
+            </div>
+            <h1 id="fan-dash" style="text-align: center;">
+              <span>Desligada</span>
+              <i class="material-icons md-48">brightness_1</i>
+            </h1>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/material-design-lite/material.min.js"></script>
+  <script src="script.js"></script>
+</html>

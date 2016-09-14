@@ -1,0 +1,27 @@
+{
+  "name": "sample_comunication",
+  "version": "1.0.0",
+  "description": "Sample Web Comunication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toradex",
+    "node",
+    "express"
+  ],
+  "author": "Aderbal Nunes <aderbal@zenitetecnologia.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "deferred": "^0.7.3",
+    "ds18b20": "^0.1.0",
+    "express": "^4.13.1",
+    "express-jwt": "^3.1.0",
+    "getmac": "^1.2.1",
+    "jsonwebtoken": "^5.4.0",
+    "method-override": "^2.3.3",
+    "socket.io": "^1.4.8"
+  }
+}
