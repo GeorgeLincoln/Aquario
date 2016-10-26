@@ -1,5 +1,5 @@
 // GPIO Helper for setup and manipulate GPIO pins of Viola Module
-// @author Aderbal Nunes <aderbal@zenitetecnologia.com.br>
+// @author Aderbal Nunes <aderbalnunes@gmail.com>
 // 27 Jul 2016
 
 // FS module
